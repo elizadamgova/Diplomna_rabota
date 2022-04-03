@@ -4,10 +4,12 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-   public Transform Player_camera;
-   public float boundX = 0.15f;
-   public float boundY = 0.10f;
+   //Variables
+   public Transform Player_camera; //What object is being followed
+   public float boundX = 0.15f; //Bound for X
+   public float boundY = 0.10f; //Bound for y
 
+   //Checks if the object has reached a bound and of he ha has the camera moves
    private void LateUpdate(){
        Vector3 framegap = Vector3.zero;
 

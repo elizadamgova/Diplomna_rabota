@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Battle
   layers:
   - Default
   - TransparentFX
@@ -14,7 +15,7 @@ TagManager:
   - People
   - Background
   - Interactables
-  - Colission
+  - Collision
   - 
   - 
   - 
@@ -49,4 +50,10 @@ TagManager:
     locked: 0
   - name: People
     uniqueID: 259886107
+    locked: 0
+  - name: Weapons
+    uniqueID: 227999823
+    locked: 0
+  - name: Misc
+    uniqueID: 4087888577
     locked: 0
